@@ -1,0 +1,90 @@
+
+body{
+
+  box-sizing: border-box;
+  align-items: center;
+  background: hsl(204, 43%, 93%);
+  font-size: 18px;
+  font-family: Karla;
+}
+
+div.cards{
+  display: flex;
+  background: white;
+  margin: 0 auto;
+  border-radius: 30px;
+  height: 65%;
+  width: 100%;
+  display: inline-grid;
+  box-shadow: 6px 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.topCard{
+  padding: 18px;
+}
+
+h1#title{
+  color: #7ac5c8;
+  font-weight: bolder;
+}
+
+h4#top{
+  color: #bfdf32;
+  font-weight: bold;
+}
+
+div.bottomCards{
+  display: flex;
+}
+
+div.leftCard{
+  color: white;
+  padding-left: 18px;
+  padding-right: 15px;
+  padding-top: 5px;
+  background-color: #2bb3b1;
+  height: 100%;
+  width: 50%;
+  display: block;
+  border-bottom-left-radius: 30px;
+}
+
+span.large-text{
+  font-weight: bolder;
+  font-size: 27px;
+}
+
+button#but{
+  background-color: #bfdf32;
+  font-size: 20px;
+  width: 90%;
+  height: 20%;
+  padding: 15px 15px 15px 15px;
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+  border-radius: 8px;
+  border-style: none;
+}
+
+button#but:hover{
+  background-color: #a5c517;
+}
+
+div.rightCard{
+  color: white;
+  /* font-weight: bold; */
+  padding-left: 18px;
+  padding-right: 15px;
+  padding-top: 5px;
+  display: block;
+  height: 100%;
+  width: 50%;
+  float: left;
+  background-color: #4abebd;
+  border-bottom-right-radius: 30px;
+}
+
+@media screen and (min-width: 594px){
+
+}
